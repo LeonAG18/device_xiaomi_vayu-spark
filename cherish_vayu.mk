@@ -18,7 +18,7 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Cherish OS Stuffs
-WITH_GMS := true
+CHERISH_VANILLA := true
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=w1zzyl
 TARGET_SUPPORTS_QUICK_TAP := true
