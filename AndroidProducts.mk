@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_vayu.mk
+    $(LOCAL_DIR)/spark_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_vayu-user \
-    cherish_vayu-userdebug \
-    cherish_vayu-eng
+    spark_vayu-user \
+    spark_vayu-userdebug \
+    spark_vayu-eng
