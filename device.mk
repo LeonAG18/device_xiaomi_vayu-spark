@@ -449,5 +449,8 @@ PRODUCT_PACKAGES += \
 #PRODUCT_BOOT_JARS += \
     WfdCommon
 
+PRODUCT_BOARD_PLATFORM := msmnile
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
